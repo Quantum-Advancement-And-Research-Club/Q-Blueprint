@@ -10,7 +10,7 @@ The final goal is to connect **hardware-level calibration decisions to algorithm
 
 ---
 
-## 🚀 The Challenge
+## The Challenge
 
 A superconducting qubit is not a "calibrate once and forget" device.
 
@@ -31,7 +31,7 @@ In Q-Blueprint, you will build a simulated control stack that can:
 
 ---
 
-## ⚛️ Physics & Simulation
+## Physics & Simulation
 
 The challenge uses a **three-level transmon model**, allowing leakage from the computational subspace into the \(|2⟩\) state to be explicitly captured.
 
@@ -65,7 +65,7 @@ Every calibration shot advances the simulated clock by **500 μs**, creating a f
 
 ---
 
-## 🧪 Calibration Tasks
+## Calibration Tasks
 
 You will implement three main calibration primitives.
 
@@ -98,7 +98,7 @@ while clearly stating your sign convention.
 
 ---
 
-## 🧠 Adaptive Experiment Design
+## Adaptive Experiment Design
 
 The frequency calibration must use **Bayesian adaptive experiment design**.
 
@@ -119,7 +119,7 @@ Your analysis should demonstrate whether adaptive experimentation provides a mea
 
 ---
 
-## 📈 Drift Model
+## Drift Model
 
 All teams use the same official stochastic drift model so that results remain comparable.
 
@@ -148,7 +148,7 @@ Teams should also evaluate their policies using additional random seeds.
 
 ---
 
-## 🤖 Calibration Policy
+## Calibration Policy
 
 Implement and compare at least three calibration policies:
 
@@ -170,7 +170,7 @@ For every policy, record the full-day evolution of the oracle gate error.
 
 ---
 
-## 📊 Pareto Analysis
+## Pareto Analysis
 
 For each policy, calculate:
 
@@ -183,7 +183,7 @@ The analysis must include uncertainty estimates using at least **20 random drift
 
 ---
 
-## 🔬 Hardware → Algorithm Connection
+## Hardware → Algorithm Connection
 
 The final stage connects calibration performance to an actual quantum algorithm.
 
@@ -203,7 +203,7 @@ The final analysis should show how algorithmic performance changes throughout th
 
 ---
 
-## 🎯 Final Performance Question
+## Final Performance Question
 
 Your final analysis should answer the following:
 
@@ -215,7 +215,7 @@ Your final figure should communicate a statement of the form:
 
 ---
 
-# 📦 Deliverables
+# Deliverables
 
 ### D1 — Plant Model
 
@@ -288,7 +288,7 @@ The memo must cite at least **two external sources**.
 
 ---
 
-# 📅 Four-Day Roadmap
+# Four-Day Roadmap
 
 | Day | Phase | Expected Outcome |
 |---|---|---|
@@ -301,7 +301,7 @@ The final submission deadline is the only binding deadline.
 
 ---
 
-# 🛠️ Tools & Requirements
+# Tools & Requirements
 
 The challenge is designed to run on a **laptop CPU**.
 
@@ -322,7 +322,7 @@ A full simulation should run within minutes. If simulations become slow, vectori
 
 ---
 
-# 📋 Submission Format
+# Submission Format
 
 Each team must submit:
 
@@ -350,7 +350,7 @@ Teams should be prepared to explain every component of their implementation and 
 
 ---
 
-# 🏆 Evaluation
+# Evaluation
 
 The submission is scored out of **100 marks**.
 
@@ -385,7 +385,7 @@ Clear reporting, labelled figures, appropriate captions, and a convincing final 
 
 ---
 
-# 🌟 Bonus Challenges
+# Bonus Challenges
 
 Bonus tasks are outside the 100 marks and are intended to distinguish closely matched teams.
 
@@ -399,7 +399,7 @@ Remove the AC-Stark phase shift introduced by DRAG using a virtual-Z correction 
 
 ---
 
-# 📚 Learning Resources
+# Learning Resources
 
 ### Transmon Physics & DRAG
 
@@ -430,7 +430,7 @@ The complete official problem statement is available here:
 
 ---
 
-# ⚠️ Originality & Scientific Integrity
+# Originality & Scientific Integrity
 
 All code, analysis and written explanations must be the team's own work.
 
@@ -464,7 +464,7 @@ All submitted figures should:
 
 ---
 
-## 🚀 Good Luck!
+## Good Luck!
 
 Build the simulator.
 
