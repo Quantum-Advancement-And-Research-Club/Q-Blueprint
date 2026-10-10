@@ -1,0 +1,17 @@
+[project]
+name = "q-autopilot-backend"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0.0",
+    "scipy>=1.18.0",
+    "fastapi==0.115.0",
+    "uvicorn==0.30.0",
+    "pydantic>=2.10.0",
+    "pyyaml==6.0.1",
+    "joblib==1.4.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
